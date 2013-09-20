@@ -838,6 +838,7 @@ static char ja_kvoContext;
     
     self.tapView = nil;
     [self _toggleScrollsToTopForCenter:YES left:NO right:NO];
+    [[NSNotificationCenter defaultCenter] postNotificationName:JASidePanelShowCenterPanel object:nil];
 }
 
 - (void)_hideCenterPanel {

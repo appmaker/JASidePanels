@@ -25,6 +25,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define JASidePanelShowCenterPanel  @"JASidePanelShowCenterPanel"
+
 typedef enum _JASidePanelStyle {
     JASidePanelSingleActive = 0,
     JASidePanelMultipleActive
