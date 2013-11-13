@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         =  'JASidePanels'
+  s.name         =  'Appmaker.JASidePanels'
   s.version      =  '1.3.2'
   s.license      =  { :type => 'MIT', :file => 'README.markdown' }
   s.summary      =  'UIViewController container designed for presenting a center panel with revealable side panels - one to the left and one to the right.'
